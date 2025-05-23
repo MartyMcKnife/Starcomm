@@ -15,6 +15,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 include radios/openlst_437/Board.mk
+include radios/openlst_433/Board.mk
 include open-lst/Build.mk
 
 .PHONY: clean
