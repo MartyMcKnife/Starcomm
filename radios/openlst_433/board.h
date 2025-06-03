@@ -1,16 +1,16 @@
 // OpenLST
 // Copyright (C) 2018 Planet Labs Inc.
-// 
+//
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
-// 
+//
 // This program is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
-// 
+//
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
@@ -35,25 +35,11 @@
 #define RADIO_RANGING_RESPONDER 1
 
 // Configure Registers
-#define RF_PKTCTRL0 0x05
 #define RF_FSCTRL1 0x06
+#define RF_FSCTRL0 0x00
 #define RF_FREQ2 0x10
 #define RF_FREQ1 0xA7
 #define RF_FREQ0 0x62
-#define RF_MDMCFG4 0xF5
-#define RF_MDMCFG3 0x83
-#define RF_MDMCFG2 0x13
-#define RF_DEVIATN 0x15
-#define RF_MCSM0 0x18
-#define RF_FOCCFG 0x17
-#define RF_FSCAL3 0xE9
-#define RF_FSCAL2 0x2a
-#define RF_FSCAL1 0x00
-#define RF_FSCAL0 0x1F
-#define RF_TEST1 0x31
-#define RF_TEST0 0x09
-#define RF_PA_TABL0 0x60
-#define RF_IOCFG0 0x60
 
 void board_init(void);
 

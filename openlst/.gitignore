@@ -1,8 +1,0 @@
-*.hex
-*.lk
-*.map
-*.mem
-.vagrant
-*.log
-*.sig
-*.keys
